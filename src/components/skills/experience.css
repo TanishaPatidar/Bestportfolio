@@ -1,0 +1,54 @@
+.exp_container{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.ex_frontend h3{
+    margin-top: 1rem;
+    color:var(--box-color2);
+}
+.ex_frontend{
+    display: flex;
+    background:  var(--my-color);
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2rem;
+    border: 1px solid var(--my-color);
+    margin: auto;
+
+}
+.ex_frontend:hover{
+    background-color: transparent;
+    border-color: var(--box-color2);
+    cursor:default;
+    transition: var(--transition);
+}
+.exp_content{
+display: grid;
+grid-template-columns: 2fr 2fr;
+row-gap: 1rem;
+gap:2rem;
+padding: 2rem;
+
+}
+.exp_details{
+    padding: 1em;
+}
+.exp_details .icon{
+    color:var(--purple-color);
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:1024px) {
+   
+}
+
+@media screen and (max-width:600px) {
+   .exp_container{
+      /* margin:1em ;
+      padding: 2em; */
+   }
+   
+    
+}
